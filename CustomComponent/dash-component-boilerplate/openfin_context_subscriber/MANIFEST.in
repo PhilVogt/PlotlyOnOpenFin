@@ -1,0 +1,11 @@
+include openfin_context_subscriber/openfin_context_subscriber.min.js
+include openfin_context_subscriber/openfin_context_subscriber.min.js.map
+include openfin_context_subscriber/async-*.js
+include openfin_context_subscriber/async-*.js.map
+include openfin_context_subscriber/*-shared.js
+include openfin_context_subscriber/*-shared.js.map
+include openfin_context_subscriber/metadata.json
+include openfin_context_subscriber/package-info.json
+include README.md
+include LICENSE
+include package.json

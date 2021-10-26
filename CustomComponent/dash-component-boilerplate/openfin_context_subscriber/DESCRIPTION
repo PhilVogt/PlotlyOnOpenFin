@@ -1,0 +1,13 @@
+Package: openfinContextSubscriber
+Title: Simple example of an OpenFin component that listens for changes on a particular topic, and then passes the context change back out when it updates.
+Version: 0.0.1
+Description: Simple example of an OpenFin component that listens for changes on a particular topic, and then passes the context change back out when it updates.
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License: MIT + file LICENSE
+URL: 
+BugReports: 
+Encoding: UTF-8
+LazyData: true
+KeepSource: true

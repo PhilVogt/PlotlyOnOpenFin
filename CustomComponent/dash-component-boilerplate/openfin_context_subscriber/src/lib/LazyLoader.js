@@ -1,0 +1,1 @@
+export const OpenfinContextSubscriber = React.lazy(() => import(/* webpackChunkName: "OpenfinContextSubscriber" */ './fragments/OpenfinContextSubscriber.react'));

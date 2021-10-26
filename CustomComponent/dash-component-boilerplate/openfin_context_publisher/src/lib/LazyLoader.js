@@ -1,0 +1,1 @@
+export const OpenfinContextPublisher = React.lazy(() => import(/* webpackChunkName: "OpenfinContextPublisher" */ './fragments/OpenfinContextPublisher.react'));

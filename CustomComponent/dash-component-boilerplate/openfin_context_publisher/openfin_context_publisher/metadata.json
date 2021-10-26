@@ -1,0 +1,44 @@
+{
+  "src/lib/components/OpenfinContextPublisher.react.js": {
+    "description": "ExampleComponent is an example component.\r\nIt takes a property, `label`, and\r\ndisplays it.\r\nIt renders an input with the property `value`\r\nwhich is editable by the user.",
+    "displayName": "OpenfinContextPublisher",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "contextTopic": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "The value for the OpenFin topic to publish values onto."
+      },
+      "selectedItem": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The value passed back out when selection changes."
+      },
+      "items": {
+        "type": {
+          "name": "array"
+        },
+        "required": true,
+        "description": "The items to render in the dropdown. When the selection is changed, the selected\r\nvalue will be published on the OpenFin Application bus, on the contextTopic to all \r\nsubscribers."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}

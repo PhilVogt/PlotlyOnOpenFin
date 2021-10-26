@@ -1,0 +1,11 @@
+include openfin_context_publisher/openfin_context_publisher.min.js
+include openfin_context_publisher/openfin_context_publisher.min.js.map
+include openfin_context_publisher/async-*.js
+include openfin_context_publisher/async-*.js.map
+include openfin_context_publisher/*-shared.js
+include openfin_context_publisher/*-shared.js.map
+include openfin_context_publisher/metadata.json
+include openfin_context_publisher/package-info.json
+include README.md
+include LICENSE
+include package.json
