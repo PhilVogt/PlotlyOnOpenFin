@@ -11,7 +11,7 @@ This example code is meant to illustrate how one can acheive OpenFin / Dash Plot
 
 ## Running
 
-_requires the OpenFin CLI_
+__Note;__ _this example requires the [OpenFin CLI](https://developers.openfin.co/of-docs/docs/openfin-cli-tool) and Python_
 
 In one terminal instance start the Dash Plotly server:
 
@@ -37,6 +37,8 @@ The main Dash Plotly app is contained in the file _app.py_, and renders differen
 
 The dropdown on `/OpenFinPublisher` uses the OpenfinContextPublisher (custom react component), which publishes on the openfin inter-application-bus (on a topic specified in your app.py).
 
-Inside the OpenFinSubscriber window, the OpenFinContextSubscriber creates a subscription on the same topic (also defined in the app.py), when a message is received it updates the OpenfinContextSubscriber currentContext. This value is passed into the figure property on the "graph-with-slider" graph object, which has the effect of changing the graph with the selected year.
+Inside the `/OpenFinSubscriber` window, the OpenFinContextSubscriber creates a subscription on the same topic (also defined in the app.py), when a message is received it updates the OpenfinContextSubscriber currentContext. This value is passed into the figure property on the "graph-with-slider" graph object, which has the effect of changing the graph with the selected year.
 
 You could use the [Cookiecutter](https://github.com/audreyr/cookiecutter) provided by Ploty/Dash to create all manor of OpenFin components. Some of which need not even have a UI component. A good example of an OpenFin component might be one that wraps the creation of OpenFin Notifications, it could take input of the body, title etc of the notification and whenever one of these properties changes in the python script, you could create an OpenFin Notification. 
+
+__Note;__ For a detailed explanation of how to create your own components, please have a look [here](https://dash.plotly.com/plugins) at the official Dash documentation.
